@@ -1,0 +1,6 @@
+パターン01
+=IF(ISERROR(VLOOKUP(A:A,'シートA'!A:C,3,FALSE)),"",VLOOKUP(A:A,'シートA'!A:C,3,FALSE))
+
+パターン02
+=IFERROR(VLOOKUP(A:A,'シートA'!A:C,3,FALSE),"")
+
